@@ -7,7 +7,7 @@ html, body {
   padding: 0;
   width: 100%;
   height: 100%;
-  overflow-x: hidden;
+  /* overflow-x: hidden;  <-- Удалено или закомментировано */
   background: linear-gradient(135deg, #f0f7ff 0%, #e6f0ff 100%);
   color: #333;
 }
