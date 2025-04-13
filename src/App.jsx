@@ -1,11 +1,10 @@
-import { useState } from 'react'
 import './App.css'
-import DynamicProjectWebsite from './components/DynamicProjectWebsite'
+import ProjectWebsite from './components/ProjectWebsite'
 
 function App() {
   return (
     <>
-      <DynamicProjectWebsite />
+      <ProjectWebsite />
     </>
   )
 }
