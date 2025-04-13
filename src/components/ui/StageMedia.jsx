@@ -14,7 +14,7 @@ const videoLinksData = {
 };
 
 const getPdfPath = (stageNumber) => {
-  return `/documents/stage${stageNumber}_presentation.pdf`;
+  return `/cluster-research/documents/stage${stageNumber}_presentation.pdf`;
 };
 
 const getVideoLinks = (stageNumber) => {
