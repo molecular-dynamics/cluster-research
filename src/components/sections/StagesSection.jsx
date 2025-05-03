@@ -9,6 +9,8 @@ import MeltingCurve from '../visualizations/MeltingCurve';
 import BondFluctuation from '../visualizations/BondFluctuation';
 import SizeDependencePlot from '../visualizations/SizeDependencePlot';
 import PairCorrelationFunctionPlot from '../visualizations/PairCorrelationFunctionPlot';
+import ProgramStructure from '../visualizations/ProgramStructure';
+import MeltingStages from '../visualizations/MeltingStages';
 
 
 const StagesSection = forwardRef(({ projectStages }, ref) => {
@@ -101,6 +103,13 @@ const StagesSection = forwardRef(({ projectStages }, ref) => {
                         <>
                           <SizeDependencePlot />
                           <PairCorrelationFunctionPlot />
+                        </>
+                      )}
+
+                      {activeStage === 3 && (
+                        <>
+                          <ProgramStructure />
+                          <MeltingStages />
                         </>
                       )}
                     </div>

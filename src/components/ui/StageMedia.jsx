@@ -9,7 +9,7 @@ const videoLinksData = {
     rutube: "https://rutube.ru/video/021218f9b68edc108780d27f87656b41/",
     plvideo: "https://plvideo.ru/watch?v=GnU59BViZJzQ"
   },
-  3: { rutube: "#", plvideo: "#" },
+  3: { rutube: "https://rutube.ru/video/private/2edf446d8f361de311c423fda59087f0/?p=OAvghyiBE9AVaDQU5f1kKQ", plvideo: "https://plvideo.ru/watch?v=szk2jG16sAg2" },
   4: { rutube: "#", plvideo: "#" }
 };
 
